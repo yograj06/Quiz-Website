@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EasyQuizy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="Headding">
+            <h1>EasyQuizy</h1>
+        </div>
+
+        <div class="hamburger" id="hamburger">
+            &#9776;
+        </div>
+
+        <div class="navigation" id="nav-links">
+            <ul><a href="index.html">Home</a></ul>
+            <ul><a href="#about">About Us</a></ul>
+            <ul><a href="#contact">Contact Us</a></ul>
+        </div>
+
+    </nav>
+
+    <div class="home-container">
+        <h1>Welcome to the EasyQuizy website!</h1>
+        <p>
+
+        <div class="instructions">
+            <strong>Instructions :</strong> <br>
+            (I) There are 3 sections in the quiz (Math, Physics & Chemistry)<br>
+            (II) Each section have 4 questions <br>
+            (III) Total 12 questions <br>
+            (IV) All multiple choice questions having 4 options each<br>
+            (V) Only one option is correct <br>
+            (VI) +4 points for a correct answer.<br>
+            (VII) -1 point for a wrong answer.<br>
+            (VIII) 0 for unattempted questions
+        </div>
+        <div class="wish">
+            <strong>All the best!</strong>
+        </div>
+        
+        </p>
+        <a href="quiz.html"><button class="start-btn">Start Quiz</button></a>
+    </div>
+
+    <footer class="foot">
+        <div class="about" id="about">
+            <h3>About Us</h3>
+            <div class="about-para">
+                <p>
+                    Welcome to <strong>EasyQuizy</strong>, a simple quiz website made by using HTML, CSS & JavaScript.
+                    Come play the quiz and have fun !
+                </p>
+            </div>
+
+        </div>
+        <div class="contact" id="contact">
+            <h3>Contact Us</h3>
+            <div class="contact-icons">
+                <a href="mailto:yograj240607@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="tel:+917327997598"><i class="fa-solid fa-phone"></i></a>
+                <a href="https://github.com/yograj06" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/yograj-patel-84714934a/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="copy-right">
+                <p>&copy; 2025 EasyQuizy. All rights reserved.</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('show');
+        });
+    </script>
+
+</body>
+
+</html>
