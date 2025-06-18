@@ -182,8 +182,6 @@
     margin: 0;
     padding: 20px;
     text-align: center;
-
-
 }
 
 .contact-icons {
@@ -243,7 +241,7 @@ body {
 
 .btn {
     background: #fdf0d5ff;
-    color: ;
+    color: #000000;
     font-weight: 500;
     width: 100%;
     border: 1px solid #222;
@@ -264,6 +262,7 @@ body {
     background: #001e4d;
     color: white;
     font-weight: 500;
+    font-size: 16px;
     width: 150px;
     border: 0;
     padding: 10px;
@@ -278,13 +277,16 @@ body {
     background: #003580;
 }
 
+
 #home-btn {
     background: #001e4d;
     color: white;
     font-weight: 500;
+    font-size: 16px;
     width: 150px;
     border: 0;
     padding: 10px;
+    text-decoration: none;
     margin: 10px auto;
     border-radius: 5px;
     cursor: pointer;
@@ -334,6 +336,5 @@ body {
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
-
